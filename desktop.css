@@ -1,0 +1,140 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+h1{
+    padding: 20px 0px 10px 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Navbar design starts here */
+.nav-logo{
+    text-align: left;
+    padding: 0px 0px ;
+    margin: auto;
+}
+
+.nav-heading{
+    text-align: right;
+}
+
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-menu a{
+    padding: 5px 10px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+/* Navbar design ends here */
+
+
+/* Profile design starts from here  */
+
+.profile .top-weather-icon{
+    position: absolute;
+    right: 150px;
+    top: 20px;
+    width: 120px;
+    height: 120px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.profile .top-weather-icon:hover{
+    width: 140px;
+    height: 140px;
+}
+
+.profile-des p{
+    color: gray;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.profile .bottom-weather-icon{
+    position: absolute;
+    left: 150px;
+    width: 120px;
+    height: 120px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.profile .bottom-weather-icon:hover{
+    width: 140px;
+    height: 140px;
+}
+
+/* Profile design ends here  */
+
+/* About me design starts here */
+
+.about-me-img{
+    margin-top: 100px;
+}
+
+.about-me-img img{
+    height: 275px;
+    width: 270px;
+}
+
+.about-me-des p{
+    text-align: left;
+}
+
+/* About me design ends here */
+
+
+/* Professional experience design starts here */
+
+.professional-experience{
+    padding: 1% 5%;
+}
+
+/* Professional experience design ends here */
+
+/*  Achievment Contact section design starts from here */
+
+.achievment{
+    padding-right: 50px;
+}
+
+.link{
+    position: relative;
+}
+
+.media-button{
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*  Achievment Contact section design ends here */
+
+/* Footer design starts from here */
+
+.footer-menu a{
+    margin-top: 12px;
+    display: inline;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+/* Footer design ends from here */
